@@ -1,23 +1,31 @@
-nav{
-    background-color: #A8A8A8;
+#navbar{
+    display: flex;
+    align-items: center;
+    gap: 25%;
+    border-bottom: 0.5px solid black;
+}
+#logo{
     display: flex;
 }
-
-nav img{
-    width: 50px;
+#logo img{
     padding: 10px;
+    padding-left: 20px;
 }
-
+#navigation-links{
+    display: flex;
+}
+nav{
+    display: flex;
+}
 nav ul{
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 30%;
+    padding: 10px;
 }
 
 ul li{
-    display: inline-block;
     padding: 15px;
 }
 
@@ -26,10 +34,11 @@ li a{
     text-decoration: none;
     cursor: pointer;
     color: black;
+    font-size: 16px;
 }
 
 ul li a:hover{
-    color: white;
+    border-bottom: 2px solid black;
 }
 
 ul li a:active{
