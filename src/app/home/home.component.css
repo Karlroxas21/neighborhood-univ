@@ -1,0 +1,111 @@
+#container{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "resources main";
+    padding-top: 20px;
+}
+
+#resources{
+    grid-area: resources;
+}
+
+.first-content img{
+    width: 100%;
+}
+
+#main-content{
+    grid-area: main;
+    /* background-color: #dce5ea; */
+}
+
+/* FIRST CONTENT */
+#main-content p{
+    color: #472a17;
+}
+
+.p-link{
+    color: black ;
+    text-decoration: none;
+    border-bottom: 2px solid #b6dff6;
+}
+
+.p-link:hover{
+    color: #b6dff6;
+}
+
+/* FIRST CONTENT TEXT */
+.first-content-text{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.first-content-text p {
+    padding: 20px;
+}
+
+/* MORE FROM NEIGHBORHOOD UNIVERSITY */
+#more-from{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* FEATURED ARTICLES */
+#featured-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "article1 article2"
+                            "article3 article4"
+                            "article5 article6";
+}
+
+
+#featured-article-1{
+    grid-area: article1;
+}
+
+#featured-article-2{
+    grid-area: article2;
+}
+
+#featured-article-3{
+    grid-area: article3;
+}
+
+#featured-article-4{
+    grid-area: article4;
+}
+
+#featured-article-5{
+    grid-area: article5;
+}
+
+#featured-article-6{
+    grid-area: article6;
+}
+
+.article a{
+    text-decoration: none;
+    color: black;
+}
+
+.article p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article a:hover{
+    border-bottom: 1px solid black;
+    color: rgb(56, 56, 56);
+}
+
+/* RESOURCES */
+#resources{
+    
+}
