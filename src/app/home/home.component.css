@@ -3,7 +3,6 @@
     grid-template-columns: .5fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "resources main";
-    padding-top: 20px;
 }
 
 #resources{
@@ -105,7 +104,29 @@
     color: rgb(56, 56, 56);
 }
 
+#footer{
+    background-color:#1c2e44;
+    padding: 20px;
+}
+
+#footer p {
+    color: white;
+    padding: 5px;
+}
+
+.p-link-yellow{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #fbeb41;
+}
+
+.p-link-yellow:hover{
+    color: #fbeb41;
+}
+
 /* RESOURCES */
 #resources{
-    
+    background-color:rgb(216, 216, 216);
+    display: flex;
+    position: sticky;
 }

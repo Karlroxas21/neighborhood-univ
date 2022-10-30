@@ -16,13 +16,12 @@ export class HomeComponent implements OnInit {
   }
 
   // HIGHLIGHT TEXT
-  highlightName:string = " Canan Dagdeviren";
-  hightlight:string = "Accessories like shoes come in countless shapes and sizes\,\
-  so \“Why cant you customize and design your mask?\ says"
-  highlight2:string =  ". Her team developed a sensor that measures physical contact between a persons face and their mask\,\ to help design better-fitting options\.";
-  highlightDate:string = "October 24, 2022";
+  highlightName2:string = " Engineers";
+  highlightName:string = " Alexander Sludds";
+  highlight:string = "have used optics to accelerate machine-learning computations on smart speakers and other low-poer connected devices. \"We've built a system that can operate with about a milliwatt of power but still do trillions of multiplications per second,\" says"
+  highlightDate:string = "October 25, 2022";
 
 
   //FEATURED ARTICLES
-  aroundCampus:string= "On her first day as MIT\'s president-elect, Sally Kornbluth was welcomed by faculty, staff, and students in a community gathering at what she called the \"world capital of intellectual fun.\" Earlier, at a press conference, she said: \"I believe this is MIT\'s moment."
+  aroundCampus:string= "On her first day as NU\'s president-elect, Sally Kornbluth was welcomed by faculty, staff, and students in a community gathering at what she called the \"world capital of intellectual fun.\" Earlier, at a press conference, she said: \"I believe this is NU\'s moment."
 }
