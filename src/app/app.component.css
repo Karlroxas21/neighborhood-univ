@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 30%;
-    border-bottom: 0.5px solid black;
+    /* border-bottom: 0.5px solid black; */
 }
 #logo{
     display: flex;
