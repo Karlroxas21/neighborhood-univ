@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,500&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+}
+/*topPart*/
+#upperSection{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    background-color: #585555;
+    padding: 40px;
+    margin-bottom: 25px;    
+}
+#text{
+    grid-column: 1;
+    background-color: #636363;
+    color: white;
+    padding: 5px;
+}
+#video{
+    grid-column: 2;
+    grid-row:  1 / span 2;
+    display: block;
+    margin: auto;
+}
+#researchVideo{
+    width: 95%;
+}
+#text2{
+  background-color: #838383;
+  color: black;
+  padding: 5px;
+}
+
+/*topPart ends*/
+
+/*content*/
+hr{
+    width: 50%;
+    float: left;
+}
+#labPrograms{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#labText{
+    background-color: #D9D9D9;
+    width: 40%;
+    padding: 10px;
+}
+#labPicture{
+    width: 40%;
+    overflow: hidden;
+}
+#labPic{
+    width: 90%;
+    height: 100%;
+}
+#collaborations{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#collaborationsText{
+    background-color: #D9D9D9;
+    width: 40%;
+    padding: 10px;
+}
+#collaborationsPicture{
+    width: 40%;
+    overflow: hidden;
+}
+#collaborationsPic{
+    width: 90%;
+    height: 100%;
+}
+/*content ends*/
+
+/*picContainer*/
+#picContainer{
+    display: block;
+    margin: auto;
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    height: inherit;
+}
+.imagesTop{
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+}
+.imagesBot{
+    height: 280px;
+    width: 250px;
+    padding: 5px;
+}
+.imagesTop:hover, .imagesBot:hover {
+    border: solid white 3px;
+    padding: 0;
+}
+/*picContainer ends*/
+@media (max-width: 1100px) {
+    #upperSection{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        justify-content: center;
+    }
+    #text{
+        width: 100%;
+        padding: 5px;
+    }
+    #video{
+        width: 100%;
+        height: max-content;
+        align-self: center;
+        height: 300px;
+        margin-top: 10px;
+    }
+    #text2{
+      width: 100%;
+      padding: 5px;
+      margin-top: 10px;
+    }
+    #labPrograms{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 93%;
+    }
+    #labText{
+        width: 100%;
+    }
+    #labPicture{
+        margin-top: 20px;
+        width: 90%;
+        align-self: center;
+    }
+    #researchVideo{
+        width: 100%;
+        height: 100%;
+    }
+    #labPic{
+        width: 100%;
+    }
+    #collaborations{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 93%;
+    }
+    #collaborationsText{
+        width: 100%;
+    }
+    #collaborationsPicture{
+        margin-top: 20px;
+        width: 90%;
+        align-self: center;
+    }
+    #collaborationsPic{
+        width: 100%;
+    }
+      
+}
+
+footer{
+    background-color:#1c2e44;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    padding: 5px;
+}
+
+.p-link-yellow{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #fbeb41;
+}
+
+.p-link-yellow:hover{
+    color: #fbeb41;
+}
