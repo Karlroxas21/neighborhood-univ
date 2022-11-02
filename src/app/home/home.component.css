@@ -140,13 +140,14 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
+    margin-top: 4%;
 }
 
 #footer-sidebar{
     padding-left: 5px;
 
     position: absolute;
-    bottom: 2%;
+    bottom: 10%;
 }
 
 #footer-sidebar-links{
