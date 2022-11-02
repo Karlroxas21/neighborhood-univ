@@ -58,6 +58,7 @@
 
 /* FEATURED ARTICLES */
 #featured-article{
+    gap: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
