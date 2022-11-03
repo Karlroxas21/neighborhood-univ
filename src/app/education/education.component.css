@@ -1,4 +1,4 @@
-div{
+#local-div{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
@@ -15,5 +15,95 @@ div{
 }
 
 #highlight-txt a:hover{
+    color: #0032bd;
+}
+
+/* text-video-1 */
+#text-video-1{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "text video";
+    gap: 50px;
+}
+
+#section-text{
+    grid-area: text;
+}
+
+#section-text p{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+#section-text p a{
+    color: black;
+}
+
+#section-text p a:hover{
+    color:#0032bd;
+}
+#section-vid{
+    grid-area: video;
+    display: flex;
+}
+
+/* Schools, Departments, & the College */
+.s-d-c{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "text1 topresource";
+    padding-top: 5%;
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+}
+
+.s-d-c-text{
+    grid-area: text1;
+}
+
+.s-d-c-text p{
+    line-height: 30px;
+}
+
+.s-d-c-text a{ 
+    color: black;
+}
+
+.s-d-c-text a:hover{
+    color: #0032bd;
+}
+
+.s-d-c-text button{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.s-d-c-text button:hover{
+    color:white;
+    background-color: #0032bd;
+}
+
+.top-resources{
+    grid-area: topresource;
+    margin-left: 200px;
+}
+
+.top-resources p{
+    line-height: 30px;
+}
+
+.top-resources ul li a{
+    line-height: 30px;
+}
+
+.ul-tp li a{ 
+    color: black;
+}
+
+.ul-tp li a:hover{
     color: #0032bd;
 }
