@@ -1,0 +1,19 @@
+div{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+#highlight-txt{
+    margin-right: 30%;
+    font-size: 2rem;
+}
+
+#highlight-txt a{
+    color: black;
+    overflow-y: hidden;
+}
+
+#highlight-txt a:hover{
+    color: #0032bd;
+}
