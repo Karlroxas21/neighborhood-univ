@@ -107,3 +107,44 @@
 .ul-tp li a:hover{
     color: #0032bd;
 }
+
+/* GALLERY */
+/* #gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "left right";
+}
+
+#left{
+    grid-area: left;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-template-areas: "pic1 pic1"
+                            "pic2 pic3";
+                            padding: 10px;
+}
+
+#pic1-left{
+    grid-area: pic1;
+    height: 359px;
+    width: auto;
+}
+
+#pic2-left{
+    grid-area: pic2;
+    height: 187px;
+    width: 259px;
+}
+
+#pic3-left{
+    grid-area: pic3;
+    height: 187px;
+    width: 259px;
+}
+
+#right{
+    grid-area: right;
+} */

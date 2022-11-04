@@ -1,0 +1,55 @@
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+#logo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.univ-deets-pd{
+    padding-top: 20px;
+}
+
+.univ-deets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1%;
+}
+
+#external-links{
+    display: flex;
+    padding-top: 10px;
+}
+
+.pd-left{
+    padding-right: 5px;
+}
+
+#footer-sitemap{
+    display: flex;
+    gap: 20px;
+}
+
+#footer-sitemap ul{
+    display: inline-block;
+    padding: 5px;
+    border-left: 2px solid grey;
+}
+
+#footer-sitemap ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
+}
+
+#footer-sitemap ul li a:hover{
+    cursor: pointer;
+}
