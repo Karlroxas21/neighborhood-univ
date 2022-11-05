@@ -7,7 +7,7 @@ html{
 #upperSection{
     margin-top: 5%;
     margin-left: 10%;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 #firstParagraph{
     font-size: 2rem;
@@ -50,7 +50,7 @@ h2{
 #labPrograms{
     margin-top: 50px;
     margin-left: 9%;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     width: fit-content;
     display: flex;
     flex-direction: row;
@@ -67,6 +67,22 @@ h2{
 #labPic{
     width: 100%;
     margin-top: 35px;
+}
+.labProgramsButton{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 20px;
+    border: solid maroon 1.5px;
+    width: fit-content;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.labProgramsButton:hover{
+    background-color: maroon;
+    color: white;
 }
 /*lab ends*/
 
@@ -91,6 +107,22 @@ h2{
 #collaborationsPic{
     width: 100%;
     margin-top: 35px;
+}
+.collaborationsButton{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 20px;
+    border: solid maroon 1.5px;
+    width: fit-content;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.collaborationsButton:hover{
+    background-color: maroon;
+    color: white;
 }
 /*collaboration ends*/
 
@@ -119,30 +151,6 @@ h2{
     border: solid white 3px;
     padding: 0;
 }
-/*picContainer ends*/
-
-/*footer*/
-footer{
-    background-color:#1c2e44;
-    padding: 20px;
-}
-
-footer p {
-    color: white;
-    padding: 5px;
-}
-
-.p-link-yellow{
-    text-decoration: none;
-    color: white;
-    border-bottom: 2px solid #fbeb41;
-}
-
-.p-link-yellow:hover{
-    color: #fbeb41;
-}
-/*footer ends*/
-
 
 @media (max-width: 1100px) {
     #upperSection{
