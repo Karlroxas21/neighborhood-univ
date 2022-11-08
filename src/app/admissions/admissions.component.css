@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,500&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+}
+ol li{
+    list-style-type: decimal;
+}
+#upperSection{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+#firstParagraph{
+    font-size: 2rem;
+    margin-right: 30%;
+    font-weight: 100;
+    line-height: 1.4;
+    margin-bottom: 50px;
+}
+#videoAndText{
+    display: flex;
+    margin-right: 7%;
+}
+#secondParagraph{
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.7;
+    padding-right: 30px;
+    width: 50%;
+}
+#video{
+    width: 50%;
+    margin-top: 5px;
+}
+#aboutVideo{
+    width: 100%;
+}
+
+hr{
+    width: 29%;
+    height: 1px;
+    background-color: maroon;
+    float: left;
+    margin-left: 9%;
+}
+h2{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#labPrograms{
+    margin-top: 50px;
+    margin-left: 9%;
+    margin-bottom: 100px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+#labText{
+    font-size: 18px;
+    line-height: 1.6;
+    width: 45%;
+    margin-right: 5%;
+}
+#labPictureDiv{
+    width: 40%;
+}
+#aboutPic{
+    width: 100%;
+    margin-top: 35px;
+}
+.labProgramsButton{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 20px;
+    border: solid maroon 1.5px;
+    width: fit-content;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#collaborations{
+    margin-top: 50px;
+    margin-left: 9%;
+    margin-bottom: 100px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+#collaborationsText{
+    font-size: 18px;
+    line-height: 1.6;
+    width: 45%;
+    margin-right: 5%;
+  
+  
+}
+#collaborationsPictureDiv{
+    width: 40%;
+}
+#collaborationsPic{
+    width: 100%;
+    margin-top: 35px;
+}
+
+#picContainer{
+    display: block;
+    margin: auto;
+    background-color: black;
+    height: 400px;
+    width: fit-content;
+    padding: 30px;
+    text-align: center;
+    height: inherit;
+}
+.imagesTop{
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+}
+.imagesBot{
+    height: 280px;
+    width: 250px;
+    padding: 5px;
+}
+.imagesTop:hover, .imagesBot:hover {
+    border: solid white 3px;
+    padding: 0;
+}
+
+@media (max-width: 1100px) {
+    #upperSection{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    #firstParagraph{
+        width: 80%;
+        padding: 5px;
+    }
+    #videoAndText{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #video{
+        width: 100%;
+        height: max-content;
+        align-self: center;
+        height: 300px;
+        margin-top: 10px;
+    }
+    #secondParagraph{
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    #labPrograms{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 93%;
+    }
+    #labText{
+        width: 90%;
+    }
+    #labPictureDiv{
+        margin-top: 20px;
+        width: 90%;
+    }
+    #video{
+        overflow: hidden;
+    }
+    #researchVideo{
+        width: 100%;
+        height: 100%;
+    }
+    #labPic{
+        width: 100%;
+    }
+    #collaborations{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 93%;
+    }
+    #collaborationsText{
+        width: 90%;
+    }
+    #collaborationsPictureDiv{
+        margin-top: 20px;
+        width: 90%;
+    }
+    #collaborationsPic{
+        width: 100%;
+    }
+    .imagesTop{
+        width: 350px;
+        height: 300px;
+        padding: 5px;
+    }
+    .imagesBot{
+        width: 350px;
+        height: 300px;
+        padding: 5px;
+    }
+}

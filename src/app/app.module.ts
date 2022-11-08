@@ -8,6 +8,7 @@ import { EducationComponent } from './education/education.component';
 import { ResearchComponent } from './research/research.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { AdmissionsComponent } from './admissions/admissions.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AboutComponent } from './about/about.component';
     EducationComponent,
     ResearchComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    AdmissionsComponent
   ],
   imports: [
     BrowserModule,
