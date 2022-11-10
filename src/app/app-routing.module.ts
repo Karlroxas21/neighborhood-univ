@@ -4,11 +4,13 @@ import { EducationComponent } from './education/education.component';
 import { ResearchComponent } from './research/research.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {component: EducationComponent, path: 'education'},
   {component: ResearchComponent, path: 'research'},
   {component: AboutComponent, path: 'about'},
+  {component: LoginComponent, path: 'login'},
   {component: HomeComponent, path: ''}
 ];
 
