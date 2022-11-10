@@ -12,7 +12,6 @@ const routes: Routes = [
   {component: ResearchComponent, path: 'research'},
   {component: AboutComponent, path: 'about'},
   {component: LoginComponent, path: 'login'},
-  {component: HomeComponent, path: ''}
   {component: HomeComponent, path: ''},
   {component: AdmissionsComponent, path: 'admissions'}
 ];
