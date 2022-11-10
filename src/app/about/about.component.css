@@ -8,6 +8,9 @@ html{
     margin-left: 10%;
     margin-bottom: 100px;
 }
+ol li{
+    list-style-type: decimal;
+}
 #firstParagraph{
     font-size: 2rem;
     margin-right: 30%;
