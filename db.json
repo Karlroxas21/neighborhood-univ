@@ -5,12 +5,6 @@
         "username": "karluser",
         "password": "karlpassword",
         "role": "admin"
-      },
-      {
-        "id": 2,
-        "username": "karinauser",
-        "password": "karinapassword",
-        "role": "admin"
       }
     
   ]
