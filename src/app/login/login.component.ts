@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 
-import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-login',
@@ -11,9 +11,10 @@ import { map } from 'rxjs/operators';
 })
 export class LoginComponent implements OnInit {
 
-  var1 : any;
+
   public loginForm !: FormGroup;
-  constructor(public httpClient : HttpClient, private formBuilder : FormBuilder) { }
+
+  constructor(private formBuilder: FormBuilder, private http: HttpClient, private router: Router) { }
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group({
@@ -23,25 +24,25 @@ export class LoginComponent implements OnInit {
   }
 
   login(){
-    this.httpClient.get<any>('http://localhost:3000/accounts')
+    this.http.get<any>("http://localhost:3000/accounts")
     .subscribe(res=>{
-      const user = res.find((a: any)=>{
-        return a.email === this.loginForm.value.username &&
+      const user = res.find((a:any)=>{
+        return a.username === this.loginForm.value.username &&
         a.password === this.loginForm.value.password
       });
       if(user){
-        alert("Login Success");
-        console.log("Login Success");
+        alert("Login Success!");
         this.loginForm.reset();
+        this.router.navigate(['education'])
       }else{
-        alert("Account not found!");
-        console.log("Account not found!");
+        alert("User not found!");
       }
-      }, err=>{
-        alert("Something went wrong");
-        console.log("Something went wrong");
+    }, err=>{
+      alert("Something went wrong!");
     })
   }
+
+ 
 
   
 

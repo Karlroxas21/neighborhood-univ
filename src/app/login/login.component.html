@@ -1,9 +1,9 @@
 <body>
     <div class="login">
         <h1 class="text-center">Neighborhood University</h1>
-        <form (ngSubmit)="login()" (formGroup) = "loginForm" class="needs-validation">
+        <form (ngSubmit)="login()" [formGroup]="loginForm" class="needs-validation">
             <div class="form-group was-validated">
-                <label class="form-label" for="email">Email address</label>
+                <label class="form-label" for="email">Username</label>
                 <input formControlName="username" class="form-control" type="text"  required>
                 <div class="invalid-feedback">
                     Please enter your email address
