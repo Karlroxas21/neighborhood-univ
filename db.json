@@ -7,5 +7,18 @@
       "role": "admin"
     }
   ],
-  "students": []
+  "students": [
+    {
+      "id": 1,
+      "firstName": "Karl Marx",
+      "lastName": "Roxas",
+      "email": "roxaskv@students.national-u.edu.ph",
+      "mobile": "09123456789",
+      "age": "20",
+      "course": "BSIT-MAA",
+      "father": "Karl",
+      "mother": "Marx",
+      "address": "Taguig"
+    }
+  ]
 }
