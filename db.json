@@ -1,11 +1,11 @@
 {
   "accounts": [
-      {
-        "id": 1,
-        "username": "karluser",
-        "password": "karlpassword",
-        "role": "admin"
-      }
-  
-  ]
+    {
+      "id": 1,
+      "username": "karluser",
+      "password": "karlpassword",
+      "role": "admin"
+    }
+  ],
+  "students": []
 }

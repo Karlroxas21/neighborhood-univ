@@ -13,6 +13,7 @@ import { AdmissionsComponent } from './admissions/admissions.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NewsComponent } from './news/news.component';
+import { EnrollmentComponent } from './enrollment/enrollment.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NewsComponent } from './news/news.component';
     AboutComponent,
     LoginComponent,
     AdmissionsComponent,
-    NewsComponent
+    NewsComponent,
+    EnrollmentComponent
   ],
   imports: [
     BrowserModule,
