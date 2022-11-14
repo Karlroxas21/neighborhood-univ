@@ -1,5 +1,5 @@
 # Neighborhood University
-![Neighborhood University Logo](/src/assets/neighborhooduniversity_logo.png)
+![Neighborhood University Logo](/src/assets/313213846_710842656549244_1602816734568908075_n.png)
 ###### Final Project in Integrative Programming
 
 ## Instructions on how to use:
