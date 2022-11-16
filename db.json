@@ -19,6 +19,18 @@
       "father": "Karl",
       "mother": "Marx",
       "address": "Taguig"
+    },
+    {
+      "id": 2,
+      "firstName": "Robert Jay ",
+      "lastName": "Cruz",
+      "email": "cruzrc@students.national-u.edu.ph",
+      "mobile": "0931233243212",
+      "age": "50",
+      "course": "BSIT-MWA",
+      "father": "Tatay Oblak",
+      "mother": "Ducker",
+      "address": "4234 R. Papa St. Manila City"
     }
   ]
 }
